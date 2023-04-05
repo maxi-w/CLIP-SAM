@@ -1,10 +1,11 @@
 # CLIP-SAM
 
-Small Experiment on combining CLIP with SAM to do open-vocabulary image segmentation.
+Small experiment on combining CLIP with SAM to do open-vocabulary image segmentation.
 
 - [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything)
 - [Contrastive Language-Image Pre-Training (CLIP)](https://github.com/openai/CLIP)
 
+The approach is to first identify all the parts of an image using SAM, and then use CLIP to find the ones that best match a specific description.
 
 ## Usage
 
